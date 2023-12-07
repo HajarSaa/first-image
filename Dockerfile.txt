@@ -1,5 +1,0 @@
-FROM openjdk
-WORKDIR /application
-COPY hajar.java .
-RUN javac hajar.java
-CMD java hajar
